@@ -4,7 +4,7 @@
 
 I focused on writing the code and tests rather than the application structure and followed the steps in the document rather than creating a data lake with different stages.
 
-## Database
+## Database
 
 The instructions said to write to a database so I used a local docker container with postgres:
 
@@ -19,18 +19,23 @@ from pg_database import write_summary_to_database
 # from json_database import write_summary_to_database
 ```
 
-## Config
+## Config 
 
 To change the paths to the input or output files, or the jdbc settings see `src/pipeline/config.py`
 
-## Running the Pipeline
+## Running the Pipeline 
+
+Steps to run the pipeline:
 
 1. Create a virtual environment
 1. Install requirements `pip install -r requirements.txt`
 1. Change to the src directory
 1. `python3 -m pipeline.pipeline`
 
-## Running Tests
+## Running the Tests 
+ 
+Steps to run the tests:
+
 1. Create a virtual environment
 1. Install requirements `pip install -r requirements.txt`
 1. Change to the src/tests directory
