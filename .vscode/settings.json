@@ -1,0 +1,15 @@
+{
+    "cSpell.words": [
+        "colibri",
+        "timeslots"
+    ],
+    "python.analysis.extraPaths": [
+        "src",
+        "./src/pipeline"
+    ],
+    "python.testing.pytestArgs": [
+        "src"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}
